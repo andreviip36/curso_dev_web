@@ -1,0 +1,124 @@
+<!-- A enfase a ser observada nesse projeto é o código em HTML -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8">
+        <title>Menu - Rota 493</title>
+        
+        <style>
+            
+            html {background-color: whitesmoke}
+            
+            main {
+                 width: 955px; margin: -1px auto 10px; border: 1px solid #ddd; background-color: white; font-family: sans-serif, Arial}
+            }
+            
+            header {width: 955px; height: 95px}
+            
+            nav { width: 955px; background-color:chocolate}
+            nav ul {list-style: none; margin:0; padding: 4px}
+            nav ul li {display: inline-block}
+            nav ul li a {font-size: 0.95em; text-decoration: none; color: white; padding: 4px 20px}
+            nav ul li a:hover { background-color: coral}
+            
+            article {float: left; margin: 30px 20px; width: 600px}
+            
+            article header h1 {margin: 0}
+            
+            article header h5 {margin: 0; font-size; 1.1em; color: floralwhite; font-weight: 100}
+            
+            #apoio {float: right; width: 300px; margin-top: 30px}
+            
+            footer { clear: both; width: 700px; margin:0 auto; font-size: 0.75em; text-align: center; background-color: floralwhite; padding: 5px}
+            
+            h1, h2, h4 {font-family: sans-serif, Georgia, "Times New Roman"; color: brown; font-style: italic; letter-spacing: -0.05em}
+            
+        </style> 
+	</head>
+
+    <body>
+        <main>
+            <header>
+                <img src="../projeto/rota493.jpg">
+            </header>
+
+            <nav>
+                <ul>
+                  <li><a href="inicio.html">Início</a></li>
+                  <li><a href="informacoes.html">Informações</a></li>
+                  <li><a href="eventos_especiais.html">Eventos Especiais</a></li>
+                  <li><a href="dvd.html">DVD</a></li>
+                  <li><a href="localizacao.htm">Localização</a></li>
+                  <li><a href="menu.html">Menu</a></li>
+                  <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+            <article>
+                <header>
+                    <h1>Menu</h1>
+                </header>
+                
+                <h4>Aperitivos</h4>
+                <p><img src="../projeto/aperitivos.jpg" width="475" height="102" alt=""/></p>
+                <ul>
+                  <li>Batata Frita Tradicional - Porção 320gr.</li>
+                  <li>Batata Turbinada - Porção 500gr, Catupiry, Cheddar e Bacon.</li>
+                  <li>Onion Rings - 10 anéis de cebola.</li>
+                  <li>Batata Rústica Artesanal - Porção 400gr de batata asterix, Azeite, Orégano, Páprica, Sal, Alho e Alecrim. </li>
+                  <li>Churros Recheado com Doce de Leite.<br>
+                  </li>
+                </ul>
+                <h4>Entradas</h4>
+                <p><img src="../projeto/perfeito-hamburguer-curso-artesanal.jpg" width="475" height="102" alt=""/></p>
+                <ul>
+                  <li>Hambúrguer de Costela - Pão baguete, 200 gr de Costela Bovina, Queijo Coalho, Bacon Crocante, Alface, Tomate Cereja e Cebola Roxa.</li>
+                  <li>Burguer Australiano - Pão tipo australiano, Mussarela, Bacon Crocante, Salada e Blend 160gr. </li>
+                  <li>Salada Burguer - 160gr Blend de Carne (ou Filé de Frango Grelhado), Alface Americana, Tomate Cereja, Cebola Roxa, Cenoura e Queijo Branco. Acompanha azeite e vinagre.</li>
+                  <li>Burguer Baguete - Pão tipo baguete, Mussarela, Bacon Crocante, Salada e Blend 160gr. </li>
+                  <li>Gorgonzola Burguer - Pão baguete, Blend de 160gr, Creme de Gorgonzola e 3 Onion Rings.<br>
+                  </li>
+                  
+                </ul>
+                <h4>Sobremesas</h4>
+                <p><img src="../imagens/dessert.jpg" width="475" height="102" alt=""/></p>
+                <ul>
+                  <li>Mousse de Chocolate - Consistência e sabor de dar água na boca com chocolate meio amargo Nestlé. </li>
+                  <li>Pudim - O pudim de leite que todo mundo ama, perfeito para qualquer momento!</li>
+                  <li>Minichurros - O nosso delicioso minichurros de doce de leite argentino, com canela e açúcar. </li>
+                  <li>Torta Crocante de Sorvete - Uma irresistível torta de sorvete de baunilha com crocantes de castanha de caju e amendoim, finalizada com cobertura de chocolate com avelã.</li>
+                  <li>Esfiha Folhada de Chocolate - Massa folhada crocante coberta de chocolate com avelã cremoso..</li>
+                </ul>
+                <h4>Sábado captura do dia</h4>
+                <p><img src="../projeto/202004071844_mNrr_8.jpg" width="202" height="160" alt=""/></p>
+                <ul>
+                  <li>Godzilla 5.0 - Pão australiano ou brioche, 4 carnes de 100g, Cream Cheese , Mussarela e Maionese especial.</li>
+                </ul>
+            </article>
+
+            <div id="apoio">
+                <section class="fotos_apoio">
+                    <h2>Mapa</h2>
+                    <img src="../projeto/Capturar.JPG" width="275" height="299" />
+                </section>
+
+                <section class="fotos_apoio">
+                    <h2>Fotos</h2>
+                    <img src="../projeto/hamburgueres.jpg" width="275" height="205" />
+                </section>
+
+                <section class="fotos_apoio">
+                    <h2>Cervejas Artesanais</h2>
+                    <img src="../projeto/loja-de-cervejas-especiais-manaus-02-300x225.jpg" width="275" height="203" />    
+                </section>
+            </div>
+
+            <footer>
+                <p>Rota 493 Burguer - BR493, Número 493, Itaboraí-RJ</p>
+                <p><small>&copy Copyright 2020 - A-Society todos os direitos reservados.</small></p>
+            </footer>
+        </main>
+		
+    </body>
+</html>
